@@ -1,4 +1,6 @@
 import csv
+import os
+import sys
 
 import click
 import numpy as np
@@ -234,4 +236,4 @@ def measure(device_id, input_channel, output_channel, csv_export):
 
 
 if __name__ == "__main__":
-    cli()
+    sys.exit(cli())

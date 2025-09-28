@@ -33,7 +33,7 @@ Repository = "https://github.com/nicola-lunghi/latencycalc"
 Issues = "https://github.com/nicola-lunghi/latencycalc/issues"
 
 [project.scripts]
-latencycalc = "latencycalc:cli"
+latencycalc = "latencycalc_entry:main"
 
 [project.optional-dependencies]
 dev = [
